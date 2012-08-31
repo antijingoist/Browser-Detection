@@ -11,4 +11,10 @@ $browserRedirectList = array(
                               "iPod"    => "",
                               "Android" => "",
                               "OTHER" => ""); 
+                              
+// overrides: if not in the above list, default to OTHER
+if (!$browserRedirectList[$Browser]) {
+   $Browser = "OTHER";
+}
+?>
 ?>
