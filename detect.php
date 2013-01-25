@@ -244,6 +244,7 @@ if (istr($agent, "TeaShark")) { $Browser = "TeaShark"; }
 if (istr($agent, "Skyfire")) { $Browser = "Skyfire"; }
 if (istr("/Bolt\//i", $agent)) { $Browser = "Bolt"; }
 if (istr("webOS", $agent)) { $Browser = "webOS"; }
+if (istr("Kindle Fire", $agent)) { $Browser = "KindleFire"}
 
 // Autodetect according to resolution reported
 if (istr("320x200", $agent)) { $Browser = "320x200"; }

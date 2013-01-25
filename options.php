@@ -5,12 +5,13 @@
 */
 //                           browser   => "http://webaddress.here"
 $browserRedirectList = array(
-                              "webOS"   => "",
-                              "iPhone"  => "",
-                              "iPad"    => "",
-                              "iPod"    => "",
-                              "Android" => "",
-                              "OTHER" => ""); 
+                              "webOS"      => "",
+                              "iPhone"     => "",
+                              "iPad"       => "",
+                              "iPod"       => "",
+                              "Android"    => "",
+                              "KindleFire" => "",
+                              "OTHER"      => ""); 
                               
 // overrides: if not in the above list, default to OTHER
 if (!$browserRedirectList[$Browser]) {
