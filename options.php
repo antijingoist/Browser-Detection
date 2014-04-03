@@ -18,4 +18,3 @@ if (!$browserRedirectList[$Browser]) {
    $Browser = "OTHER";
 }
 ?>
-?>
